@@ -1,0 +1,28 @@
+## summary of 6weeks.
+
+### <Git>   
+
+#### <version control>
+ how to stre data? 1) Local (private): hard to collaborate 2) centralized 3) Distributed: adapted in Git
+
+#### <Three stages>
+1) **Working Directory**: Progress space for the project // untracked and tracked
+2) **Staging Area**: commit-target list
+3)** Git Directory** (repository): main database directory and has many version
+
+*1->2: stage fixes* 
+*2->3: commit* 
+*3->1 : checkout the project*
+
+### <Git config>   
+   
+   * git init: make a directory
+   * git status: checkout the status of git
+   * git add file_names: include a file in Staging Area.
+   * git add . : include all of files and directories in Staging Area.
+   * .gitignore: ignore all .gitinore files
+   * git commit -m 'commit message': commit version snapshot
+   * git branch
+   * git branch -m 1 2: change branch 1 to 2
+   * 
+   ***working tree clean*** : nothing is untracked and Modified
